@@ -1,0 +1,131 @@
+:root {
+    --font-main: 'SFProText', sans-serif;
+    --font-heading: 'SF Pro Display', sans-serif;
+    --font-logo: 'Geograph', sans-serif;
+    --accent: #EB5E2D;
+    --green: #25A244;
+}
+
+.light-theme {
+    --main-bg: #E6EBE9;
+    --main-text: #1E2223;
+    --card-bg: #F4F6F5;
+    --card-border: #D7DFDC;
+    --card-user-text: #E6EBE9;
+
+    --switch: #96A29D;
+    
+    .group-outline {
+        .avatar {
+            color: #D7DFDC;
+        }
+        .group-name {
+            color: #7E8D90;
+        }
+    }
+
+    .card-outline {
+        .avatar {
+            color: #D7DFDC;
+        }
+        .card-title {
+            color: #7E8D90;
+        }
+    }
+}
+
+.dark-theme {
+    --main-bg: #1E2223;
+    --main-text: #D7DFDC;
+    --card-bg: #2A3031;
+    --card-border: #363D3F;
+    --card-user-text: #1E2223;
+
+    --switch: #FCD356;
+
+    .group-outline {
+        .avatar {
+            color: #363D3F;
+        }
+        .group-name {
+            color: #6E7C77;
+        }
+    }
+
+    .card-outline {
+        .avatar {
+            color: #363D3F;
+        }
+        .card-title {
+            color: #6E7C77;
+        }
+    }
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-main);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.2;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--main-bg);
+    color: var(--main-text);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.layout {
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.main {
+    padding-top: 90px;
+    @media (max-width : 992px) {
+        padding-top: 43px;
+    }
+}
+
+.container {
+    max-width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    @media (max-width : 992px) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.row {
+    margin-left: -7.5px;
+    margin-right: -7.5px;
+    &>* {
+        padding-left: 7.5px;
+        padding-right: 7.5px;
+    }
+}
+
+// @media (max-width : 1200px)
+// @media (max-width : 992px)
+// @media (max-width : 768px)
+// @media (max-width : 576px)
+// @media (min-width : 576px)
+// @media (min-width : 768px)
+// @media (min-width : 992px)
+// @media (min-width : 1200px)

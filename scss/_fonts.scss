@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Geograph';
+    src: url('../fonts/Geograph/Geograph-Light.woff2') format('woff2'),
+        url('../fonts/Geograph/Geograph-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geograph';
+    src: url('../fonts/Geograph/Geograph-Black.woff2') format('woff2'),
+        url('../fonts/Geograph/Geograph-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+	font-family: 'SFProText';
+	src: url('../fonts/SFProText/SFProText-Medium.woff2') format('woff2'),
+	url('../fonts/SFProText/SFProText-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SFProText';
+	src: url('../fonts/SFProText/SFProText-Bold.woff2') format('woff2'),
+	url('../fonts/SFProText/SFProText-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SFProText';
+	src: url('../fonts/SFProText/SFProText-Semibold.woff2') format('woff2'),
+	url('../fonts/SFProText/SFProText-Semibold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SF Pro Display';
+	src: url('../fonts/SFProDisplay/SFProDisplay-Bold.woff2') format('woff2'),
+	url('../fonts/SFProDisplay/SFProDisplay-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SF Pro Display';
+	src: url('../fonts/SFProDisplay/SFProDisplay-Heavy.woff2') format('woff2'),
+	url('../fonts/SFProDisplay/SFProDisplay-Heavy.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+

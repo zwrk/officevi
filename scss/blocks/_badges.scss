@@ -1,0 +1,27 @@
+.badges {
+    display: inline-flex;
+    align-items: center;
+}
+
+.badge {
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: var(--accent);
+    color: #fff;
+    box-shadow: 0px 4px 8px rgba(235, 94, 45, 0.18), 0px 0px 2px rgba(235, 94, 45, 0.12), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    svg {
+        display: block;
+    }
+    &-microphone {
+        padding: 4px;
+        padding-bottom: 3px;
+    }
+    &-video {
+        padding: 5px 4px 5px 6px;
+    }
+    &:not(:last-child) {
+        margin-right: 2px;
+    }
+}
